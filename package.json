@@ -1,6 +1,6 @@
 {
   "name": "imane01-graph",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "GraphProject is an intuitive system designed for generating and visualizing mathematical graphs.",
   "main": "server.js",
   "scripts": {
