@@ -43,7 +43,7 @@ function plotGraph() {
             try {
                 const y = math.evaluate(func, { x });
                 yValues.push(y);
-            } catch (e) {
+            } catch {
                 alert("Error in equation evaluation. Make sure it's a valid mathematical expression.");
                 return;
             }
@@ -70,6 +70,6 @@ function plotGraph() {
     }, config);
 }
 
-
+// Add event listeners to link buttons to functions
 document.getElementById('add-equation-button').addEventListener('click', addEquation);
 document.getElementById('plot-graph-button').addEventListener('click', plotGraph);
