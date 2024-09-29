@@ -1,6 +1,6 @@
 {
   "name": "imane01-graph",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "GraphProject is an intuitive system designed for generating and visualizing mathematical graphs.",
   "main": "server.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ImaneHaz/artifact-.git"
+    "url": "git+https://github.com/ImaneHaz/artifact-.git"
   },
   "author": "Imane",
   "license": "MIT",
