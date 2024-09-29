@@ -34,6 +34,8 @@ cd graphproject
 npm install
 
 4)Run the application:
+node server.js
+
 Usage
 
 1) Open the application in your browser.
