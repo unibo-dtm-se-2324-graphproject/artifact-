@@ -12,8 +12,8 @@
         <div id="equations-container">
             <input type="text" class="equation" placeholder="Enter your equation (e.g., y = x^2)">
         </div>
-        <button onclick="addEquation()">Add Equation</button>
-        <button onclick="plotGraph()">Plot Graph</button>
+        <button id="add-equation-button">Add Equation</button>
+        <button id="plot-graph-button">Plot Graph</button>
         
         <div class="customization">
             <label>X Range: <input type="number" id="x-min" placeholder="Min" value="-10"> to <input type="number" id="x-max" placeholder="Max" value="10"></label>
@@ -25,7 +25,6 @@
    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.16.1/plotly.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.0.0/math.min.js"></script>
-    <script src="script.js"></script>
-    
+    <script src="script.js" defer></script>
 </body>
 </html>
