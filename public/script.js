@@ -1,3 +1,6 @@
+/* global math, Plotly */ // Declare globals so ESLint doesn't raise "no-undef" errors
+
+// Function to add an input field for a new equation
 function addEquation() {
     const container = document.getElementById('equations-container');
     const input = document.createElement('input');
@@ -7,6 +10,7 @@ function addEquation() {
     container.appendChild(input);
 }
 
+// Function to plot the graph based on input equations
 function plotGraph() {
     const equations = document.getElementsByClassName('equation');
     const data = [];
@@ -53,6 +57,7 @@ function plotGraph() {
         });
     }
 
+    // Configuration to disable the mode bar
     const config = {
         displayModeBar: false
     };
@@ -64,3 +69,7 @@ function plotGraph() {
         title: 'Graph Plot'
     }, config);
 }
+
+
+document.getElementById('add-equation-button').addEventListener('click', addEquation);
+document.getElementById('plot-graph-button').addEventListener('click', plotGraph);
