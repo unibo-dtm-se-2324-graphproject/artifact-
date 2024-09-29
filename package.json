@@ -1,7 +1,7 @@
 {
-  "name": "GraphProject", 
+  "name": "imane01-graph", 
   "version": "1.0.1",
-  "description": "A description of your project",
+  "description": "GraphProject is an intuitive system designed for generating and visualizing mathematical graphs.",
   "main": "server.js",
   "scripts": {
     "lint": "eslint .",
