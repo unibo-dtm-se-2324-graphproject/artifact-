@@ -1,13 +1,19 @@
 {
-  "name": "GraphProject",
-  "version": "1.0.0",
-  "description": "",
+  "name": "GraphProject", 
+  "version": "1.0.1",
+  "description": "A description of your project",
   "main": "server.js",
   "scripts": {
     "lint": "eslint .",
     "test": "echo \"No tests available\" && exit 0",
     "build": "echo \"No build step required\" && exit 0"
-},
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ImaneHaz/artifact-.git"
+  },
+  "author": "Imane",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.21.0"
   },
