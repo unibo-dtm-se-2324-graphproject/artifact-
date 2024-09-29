@@ -5,14 +5,13 @@
   "main": "server.js",
   "scripts": {
     "lint": "eslint .",
-    "test":  "echo \"No tests available\" && exit 0"
+    "test": "echo \"No tests available\" && exit 0"
   },
   "dependencies": {
     "express": "^4.21.0"
   },
   "devDependencies": {
-    "eslint": "^9.11.1"
+    "eslint": "^9.11.1",
+    "globals": "^15.9.0"
   }
 }
-
-
