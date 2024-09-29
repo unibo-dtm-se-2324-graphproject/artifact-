@@ -1,5 +1,13 @@
 {
   "dependencies": {
     "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "eslint": "^9.11.1",
+    "globals": "^15.9.0"
+  },
+  "scripts": {
+    "lint": "eslint ."
   }
 }
