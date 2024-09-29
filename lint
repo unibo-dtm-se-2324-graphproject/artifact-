@@ -1,0 +1,459 @@
+> eslint .
+
+Debugger attached.
+Waiting for the debugger to disconnect...
+Waiting for the debugger to disconnect...
+(base) imane@MacBook-Air-di-Imane Artifact % commit push oring main
+zsh: command not found: commit
+(base) imane@MacBook-Air-di-Imane Artifact % push oring main 
+zsh: command not found: push
+(base) imane@MacBook-Air-di-Imane Artifact % git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 477 bytes | 477.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/ImaneHaz/artifact-
+   edd389a..edcdfef  main -> main
+(base) imane@MacBook-Air-di-Imane Artifact % npm install globals --save-dev
+Debugger attached.
+
+up to date, audited 164 packages in 862ms
+
+36 packages are looking for funding
+  run `npm fund` for detail  run `npm fund` foil  run
+Waiting for thWaitiugger to disconnect...
+(base) imane@MacBook-Air-di-Imane Artifact % git add package.json package-lock.json
+git commit -m "fix(lint): add missing globals package to resolve linting errors"
+
+[main f96a003] fix(lint): add missing globals package to resolve linting errors
+ 2 files changed, 7 insertions(+), 6 deletions(-)
+(base) imane@MacBook-Air-di-Imane Artifact % git push           
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 509 bytes | 509.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/ImaneHaz/artifact-
+   edcdfef..f96a003  main -> main
+(base) imane@MacBook-Air-di-Imane Artifact % git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 391 bytes | 391.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ImaneHaz/artifact-
+   f96a003..39e16ce  main -> main
+(base) imane@MacBook-Air-di-Imane Artifact % git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 507 bytes | 507.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ImaneHaz/artifact-
+   39e16ce..48f8b49  main -> main
+(base) imane@MacBook-Air-di-Imane Artifact % npm publish --access public
+
+Debugger attached.
+npm warn publish npm auto-corrected some errors in your package.json when publishing.  Please run "npm pkg fix" to address these errors.
+npm warn publish errors corrected:
+npm warn publish "repository.url" was normalized to "git+https://github.com/ImaneHaz/artifact-.git"
+npm notice
+npm notice 📦  GraphProject@1.0.1
+npm notice Tarball Contents
+npm notice 104B .gitattributes
+npm notice 778B .github/workflows/build.yml
+npm notice 215B CHANGELOG.md
+npm notice 1.1kB LICENSE
+npm notice 1.8kB README.md
+npm notice 542B eslint.config.mjs
+npm notice 545B package.json
+npm notice 1.2kB public/page1.html
+npm notice 2.4kB public/script.js
+npm notice 638B public/style.css
+npm notice 508B server.js
+npm notice Tarball Details
+npm notice name: GraphProject
+npm notice version: 1.0.1
+npm notice filename: GraphProject-1.0.1.tgz
+npm notice package size: 4.6 kB
+npm notice unpacked size: 9.9 kB
+npm notice shasum: 0c4c099e62b8c4d5a4ff285c756c848504caa801
+npm notice integrity: sha512-1UIsgEhiBjRMl[...]riZwQg5LAISLA==
+npm notice total files: 11
+npm notice
+npm error code ENEEDAUTH
+npm error need auth This command requires you to be logged in to https://registry.npmjs.org/
+npm error need auth You need to authorize this machine using `npm adduser`
+npm error A complete log of this run can be found in: /Users/imane/.npm/_logs/2024-09-29T14_03_24_949Z-debug-0.log
+Waiting for the debugger to disconnect...
+(base) imane@MacBook-Air-di-Imane Artifact % npm login
+
+Debugger attached.
+npm notice Log in on https://registry.npmjs.org/
+Login at:
+https://www.npmjs.com/login?next=/login/cli/9029d13b-6c9d-4311-ac6c-a04731a6d6d6
+Press ENTER to open in the browser...
+
+Logged in on https://registry.npmjs.org/.
+Waiting for the debugger to disconnect...
+(base) imane@MacBook-Air-di-Imane Artifact % npm whoami
+
+Debugger attached.
+imane01
+Waiting for the debugger to disconnect...
+(base) imane@MacBook-Air-di-Imane Artifact % npm publish --access public
+
+Debugger attached.
+npm warn publish npm auto-corrected some errors in your package.json when publishing.  Please run "npm pkg fix" to address these errors.
+npm warn publish errors corrected:
+npm warn publish "repository.url" was normalized to "git+https://github.com/ImaneHaz/artifact-.git"
+npm notice
+npm notice 📦  GraphProject@1.0.1
+npm notice Tarball Contents
+npm notice 104B .gitattributes
+npm notice 778B .github/workflows/build.yml
+npm notice 215B CHANGELOG.md
+npm notice 1.1kB LICENSE
+npm notice 1.8kB README.md
+npm notice 542B eslint.config.mjs
+npm notice 545B package.json
+npm notice 1.2kB public/page1.html
+npm notice 2.4kB public/script.js
+npm notice 638B public/style.css
+npm notice 508B server.js
+npm notice Tarball Details
+npm notice name: GraphProject
+npm notice version: 1.0.1
+npm notice filename: GraphProject-1.0.1.tgz
+npm notice package size: 4.6 kB
+npm notice unpacked size: 9.9 kB
+npm notice shasum: 0c4c099e62b8c4d5a4ff285c756c848504caa801
+npm notice integrity: sha512-1UIsgEhiBjRMl[...]riZwQg5LAISLA==
+npm notice total files: 11
+npm notice
+npm notice Publishing to https://registry.npmjs.org/ with tag latest and public access
+npm error code E403
+npm error 403 403 Forbidden - PUT https://registry.npmjs.org/GraphProject - Package name too similar to existing package graph-project; try renaming your package to '@imane01/GraphProject' and publishing with 'npm publish --access=public' instead
+npm error 403 In most cases, you or one of your dependencies are requesting
+npm error 403 a package version that is forbidden by your security policy, or
+npm error 403 on a server you do not have access to.
+npm error A complete log of this run can be found in: /Users/imane/.npm/_logs/2024-09-29T14_05_42_497Z-debug-0.log
+Waiting for the debugger to disconnect...
+(base) imane@MacBook-Air-di-Imane Artifact % npm publish --access public
+Debugger attached.
+npm warn publish npm auto-corrected some errors in your package.json when publishing.  Please run "npm pkg fix" to address these errors.
+npm warn publish errors corrected:
+npm warn publish "repository.url" was normalized to "git+https://github.com/ImaneHaz/artifact-.git"
+npm notice
+npm notice 📦  @imane01/GraphProject@1.0.1
+npm notice Tarball Contents
+npm notice 104B .gitattributes
+npm notice 778B .github/workflows/build.yml
+npm notice 215B CHANGELOG.md
+npm notice 1.1kB LICENSE
+npm notice 1.8kB README.md
+npm notice 542B eslint.config.mjs
+npm notice 553B package.json
+npm notice 1.2kB public/page1.html
+npm notice 2.4kB public/script.js
+npm notice 638B public/style.css
+npm notice 508B server.js
+npm notice Tarball Details
+npm notice name: @imane01/GraphProject
+npm notice version: 1.0.1
+npm notice filename: imane01-GraphProject-1.0.1.tgz
+npm notice package size: 4.6 kB
+npm notice unpacked size: 9.9 kB
+npm notice shasum: e7c002d01bd12263158ee396ba456703e1a30cef
+npm notice integrity: sha512-IpXU5lY/gG+GG[...]a/23hdWoRD+Ig==
+npm notice total files: 11
+npm notice
+npm notice Publishing to https://registry.npmjs.org/ with tag latest and public access
+npm error code E400
+npm error 400 Bad Request - PUT https://registry.npmjs.org/@imane01%2fGraphProject - "@imane01/GraphProject" is invalid for new packages
+npm error A complete log of this run can be found in: /Users/imane/.npm/_logs/2024-09-29T14_13_14_508Z-debug-0.log
+Waiting for the debugger to disconnect...
+(base) imane@MacBook-Air-di-Imane Artifact % npm publish --access public
+Debugger attached.
+npm warn publish npm auto-corrected some errors in your package.json when publishing.  Please run "npm pkg fix" to address these errors.
+npm warn publish errors corrected:
+npm warn publish "repository.url" was normalized to "git+https://github.com/ImaneHaz/artifact-.git"
+npm notice
+npm notice 📦  @imane01/GraphProject@1.0.2
+npm notice Tarball Contents
+npm notice 104B .gitattributes
+npm notice 778B .github/workflows/build.yml
+npm notice 215B CHANGELOG.md
+npm notice 1.1kB LICENSE
+npm notice 1.8kB README.md
+npm notice 542B eslint.config.mjs
+npm notice 553B package.json
+npm notice 1.2kB public/page1.html
+npm notice 2.4kB public/script.js
+npm notice 638B public/style.css
+npm notice 508B server.js
+npm notice Tarball Details
+npm notice name: @imane01/GraphProject
+npm notice version: 1.0.2
+npm notice filename: imane01-GraphProject-1.0.2.tgz
+npm notice package size: 4.6 kB
+npm notice unpacked size: 9.9 kB
+npm notice shasum: 2d9b30d5b067c167dbda131c23ab57cdf948bc61
+npm notice integrity: sha512-NiMAB5VxD9C+j[...]z3E+pQujj4XKw==
+npm notice total files: 11
+npm notice
+npm notice Publishing to https://registry.npmjs.org/ with tag latest and public access
+npm error code E400
+npm error 400 Bad Request - PUT https://registry.npmjs.org/@imane01%2fGraphProject - "@imane01/GraphProject" is invalid for new packages
+npm error A complete log of this run can be found in: /Users/imane/.npm/_logs/2024-09-29T14_13_23_891Z-debug-0.log
+Waiting for the debugger to disconnect...
+(base) imane@MacBook-Air-di-Imane Artifact % npm publish --access public
+Debugger attached.
+npm warn publish npm auto-corrected some errors in your package.json when publishing.  Please run "npm pkg fix" to address these errors.
+npm warn publish errors corrected:
+npm warn publish "repository.url" was normalized to "git+https://github.com/ImaneHaz/artifact-.git"
+npm notice
+npm notice 📦  @imane01/GraphProject-artifact@1.0.2
+npm notice Tarball Contents
+npm notice 104B .gitattributes
+npm notice 778B .github/workflows/build.yml
+npm notice 215B CHANGELOG.md
+npm notice 1.1kB LICENSE
+npm notice 1.8kB README.md
+npm notice 542B eslint.config.mjs
+npm notice 562B package.json
+npm notice 1.2kB public/page1.html
+npm notice 2.4kB public/script.js
+npm notice 638B public/style.css
+npm notice 508B server.js
+npm notice Tarball Details
+npm notice name: @imane01/GraphProject-artifact
+npm notice version: 1.0.2
+npm notice filename: imane01-GraphProject-artifact-1.0.2.tgz
+npm notice package size: 4.6 kB
+npm notice unpacked size: 9.9 kB
+npm notice shasum: 965b5fbcbda4bc5de97f536afe208cceb0792bfd
+npm notice integrity: sha512-7/PXQX6phhTQi[...]YGfE7LrExg8Eg==
+npm notice total files: 11
+npm notice
+npm notice Publishing to https://registry.npmjs.org/ with tag latest and public access
+npm error code E400
+npm error 400 Bad Request - PUT https://registry.npmjs.org/@imane01%2fGraphProject-artifact - "@imane01/GraphProject-artifact" is invalid for new packages
+npm error A complete log of this run can be found in: /Users/imane/.npm/_logs/2024-09-29T14_15_01_524Z-debug-0.log
+Waiting for the debugger to disconnect...
+(base) imane@MacBook-Air-di-Imane Artifact % npm pkg fix
+Debugger attached.
+Waiting for the debugger to disconnect...
+(base) imane@MacBook-Air-di-Imane Artifact % npm publish --access public
+Debugger attached.
+npm notice
+npm notice 📦  @imane01/GraphProject-artifact@1.0.2
+npm notice Tarball Contents
+npm notice 104B .gitattributes
+npm notice 778B .github/workflows/build.yml
+npm notice 215B CHANGELOG.md
+npm notice 1.1kB LICENSE
+npm notice 1.8kB README.md
+npm notice 542B eslint.config.mjs
+npm notice 566B package.json
+npm notice 1.2kB public/page1.html
+npm notice 2.4kB public/script.js
+npm notice 638B public/style.css
+npm notice 508B server.js
+npm notice Tarball Details
+npm notice name: @imane01/GraphProject-artifact
+npm notice version: 1.0.2
+npm notice filename: imane01-GraphProject-artifact-1.0.2.tgz
+npm notice package size: 4.6 kB
+npm notice unpacked size: 9.9 kB
+npm notice shasum: 19c5b23cf779ec7a3d6627aa96a282f433a91faf
+npm notice integrity: sha512-sKZTC5D+WPe5r[...]YXxzcKV4jm8Zw==
+npm notice total files: 11
+npm notice
+npm notice Publishing to https://registry.npmjs.org/ with tag latest and public access
+npm error code E400
+npm error 400 Bad Request - PUT https://registry.npmjs.org/@imane01%2fGraphProject-artifact - "@imane01/GraphProject-artifact" is invalid for new packages
+npm error A complete log of this run can be found in: /Users/imane/.npm/_logs/2024-09-29T14_15_22_422Z-debug-0.log
+Waiting for the debugger to disconnect...
+(base) imane@MacBook-Air-di-Imane Artifact %  npm publish --access public
+Debugger attached.
+npm notice
+npm notice 📦  @imane01/GraphProject@1.0.2
+npm notice Tarball Contents
+npm notice 104B .gitattributes
+npm notice 778B .github/workflows/build.yml
+npm notice 215B CHANGELOG.md
+npm notice 1.1kB LICENSE
+npm notice 1.8kB README.md
+npm notice 542B eslint.config.mjs
+npm notice 557B package.json
+npm notice 1.2kB public/page1.html
+npm notice 2.4kB public/script.js
+npm notice 638B public/style.css
+npm notice 508B server.js
+npm notice Tarball Details
+npm notice name: @imane01/GraphProject
+npm notice version: 1.0.2
+npm notice filename: imane01-GraphProject-1.0.2.tgz
+npm notice package size: 4.6 kB
+npm notice unpacked size: 9.9 kB
+npm notice shasum: 592a86e0620845a59b979d2340568584e5f9f9ae
+npm notice integrity: sha512-kOSe4iKS4nml5[...]JkcI4cwZk5g6Q==
+npm notice total files: 11
+npm notice
+npm notice Publishing to https://registry.npmjs.org/ with tag latest and public access
+npm error code E400
+npm error 400 Bad Request - PUT https://registry.npmjs.org/@imane01%2fGraphProject - "@imane01/GraphProject" is invalid for new packages
+npm error A complete log of this run can be found in: /Users/imane/.npm/_logs/2024-09-29T14_17_11_742Z-debug-0.log
+Waiting for the debugger to disconnect...
+(base) imane@MacBook-Air-di-Imane Artifact % >....                                                                
+npm notice 508B server.js
+npm notice Tarball Details
+npm notice name: @imane01/GraphProject
+npm notice version: 1.0.2
+npm notice filename: imane01-GraphProject-1.0.2.tgz
+npm notice package size: 4.6 kB
+npm notice unpacked size: 9.9 kB
+npm notice shasum: 592a86e0620845a59b979d2340568584e5f9f9ae
+npm notice integrity: sha512-kOSe4iKS4nml5[...]JkcI4cwZk5g6Q==
+npm notice total files: 11
+npm notice
+npm notice Publishing to https://registry.npmjs.org/ with tag latest and public access
+npm error code E400
+npm error 400 Bad Request - PUT https://registry.npmjs.org/@imane01%2fGraphProject - "@imane01/GraphProject" is invalid for new packages
+npm error A complete log of this run can be found in: /Users/imane/.npm/_logs/2024-09-29T14_17_11_742Z-debug-0.log 
+Waiting for the debugger to disconnect...npm run lint
+zsh: parse error near `imane@MacBook-Air-di...'
+(base) imane@MacBook-Air-di-Imane Artifact % npm publish --access public
+Debugger attached.
+npm warn publish npm auto-corrected some errors in your package.json when publishing.  Please run "npm pkg fix" to address these errors.
+npm warn publish errors corrected:
+npm warn publish "repository.url" was normalized to "git+https://github.com/ImaneHaz/artifact-.git"
+npm notice
+npm notice 📦  GraphProject-Unique@1.0.1
+npm notice Tarball Contents
+npm notice 104B .gitattributes
+npm notice 778B .github/workflows/build.yml
+npm notice 215B CHANGELOG.md
+npm notice 1.1kB LICENSE
+npm notice 1.8kB README.md
+npm notice 542B eslint.config.mjs
+npm notice 619B package.json
+npm notice 1.2kB public/page1.html
+npm notice 2.4kB public/script.js
+npm notice 638B public/style.css
+npm notice 508B server.js
+npm notice Tarball Details
+npm notice name: GraphProject-Unique
+npm notice version: 1.0.1
+npm notice filename: GraphProject-Unique-1.0.1.tgz
+npm notice package size: 4.6 kB
+npm notice unpacked size: 9.9 kB
+npm notice shasum: 41558414e6331471f1c848bffb54aea890208d74
+npm notice integrity: sha512-rIVfQ97QfNGg6[...]CsQv83M5g9j+g==
+npm notice total files: 11
+npm notice
+npm notice Publishing to https://registry.npmjs.org/ with tag latest and public access
+npm error code E400
+npm error 400 Bad Request - PUT https://registry.npmjs.org/GraphProject-Unique - "GraphProject-Unique" is invalid for new packages
+npm error A complete log of this run can be found in: /Users/imane/.npm/_logs/2024-09-29T14_25_21_973Z-debug-0.log
+Waiting for the debugger to disconnect...
+(base) imane@MacBook-Air-di-Imane Artifact % npm publish --access public
+Debugger attached.
+npm warn publish npm auto-corrected some errors in your package.json when publishing.  Please run "npm pkg fix" to address these errors.
+npm warn publish errors corrected:
+npm warn publish "repository.url" was normalized to "git+https://github.com/ImaneHaz/artifact-.git"
+npm notice
+npm notice 📦  GraphProject-Unique@1.0.1
+npm notice Tarball Contents
+npm notice 104B .gitattributes
+npm notice 778B .github/workflows/build.yml
+npm notice 215B CHANGELOG.md
+npm notice 1.1kB LICENSE
+npm notice 1.8kB README.md
+npm notice 542B eslint.config.mjs
+npm notice 619B package.json
+npm notice 1.2kB public/page1.html
+npm notice 2.4kB public/script.js
+npm notice 638B public/style.css
+npm notice 508B server.js
+npm notice Tarball Details
+npm notice name: GraphProject-Unique
+npm notice version: 1.0.1
+npm notice filename: GraphProject-Unique-1.0.1.tgz
+npm notice package size: 4.6 kB
+npm notice unpacked size: 9.9 kB
+npm notice shasum: 41558414e6331471f1c848bffb54aea890208d74
+npm notice integrity: sha512-rIVfQ97QfNGg6[...]CsQv83M5g9j+g==
+npm notice total files: 11
+npm notice
+npm notice Publishing to https://registry.npmjs.org/ with tag latest and public access
+npm error code E400
+npm error 400 Bad Request - PUT https://registry.npmjs.org/GraphProject-Unique - "GraphProject-Unique" is invalid for new packages
+npm error A complete log of this run can be found in: /Users/imane/.npm/_logs/2024-09-29T14_27_03_500Z-debug-0.log
+Waiting for the debugger to disconnect...
+(base) imane@MacBook-Air-di-Imane Artifact %  npm publish --access public
+Debugger attached.
+npm warn publish npm auto-corrected some errors in your package.json when publishing.  Please run "npm pkg fix" to address these errors.
+npm warn publish errors corrected:
+npm warn publish "repository.url" was normalized to "git+https://github.com/ImaneHaz/artifact-.git"
+npm notice
+npm notice 📦  imane01-graph@1.0.1
+npm notice Tarball Contents
+npm notice 104B .gitattributes
+npm notice 778B .github/workflows/build.yml
+npm notice 215B CHANGELOG.md
+npm notice 1.1kB LICENSE
+npm notice 1.8kB README.md
+npm notice 542B eslint.config.mjs
+npm notice 613B package.json
+npm notice 1.2kB public/page1.html
+npm notice 2.4kB public/script.js
+npm notice 638B public/style.css
+npm notice 508B server.js
+npm notice Tarball Details
+npm notice name: imane01-graph
+npm notice version: 1.0.1
+npm notice filename: imane01-graph-1.0.1.tgz
+npm notice package size: 4.6 kB
+npm notice unpacked size: 9.9 kB
+npm notice shasum: 64214b9a6c828183ec65807d24f5f2b221f16a79
+npm notice integrity: sha512-lKukpRBr+98PL[...]mjcerEaRUhiiw==
+npm notice total files: 11
+npm notice
+npm notice Publishing to https://registry.npmjs.org/ with tag latest and public access
++ imane01-graph@1.0.1
+Waiting for the debugger to disconnect...
+(base) imane@MacBook-Air-di-Imane Artifact % git add package.json
+git commit -m "fix(package): rename package to a unique name for publishing"
+
+[main 15843a0] fix(package): rename package to a unique name for publishing
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+(base) imane@MacBook-Air-di-Imane Artifact % git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 445 bytes | 445.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ImaneHaz/artifact-
+   48f8b49..15843a0  main -> main
+(base) imane@MacBook-Air-di-Imane Artifact % npm token create
+
+Debugger attached.
+npm password: jeHcuf-xomric-0tahga
+
+
+
+
+
