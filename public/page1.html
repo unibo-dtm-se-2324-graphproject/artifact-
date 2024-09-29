@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Graphing Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="equations-container">
+            <input type="text" class="equation" placeholder="Enter your equation (e.g., y = x^2)">
+        </div>
+        <button onclick="addEquation()">Add Equation</button>
+        <button onclick="plotGraph()">Plot Graph</button>
+        
+        <div class="customization">
+            <label>X Range: <input type="number" id="x-min" placeholder="Min" value="-10"> to <input type="number" id="x-max" placeholder="Max" value="10"></label>
+            <label>Y Range: <input type="number" id="y-min" placeholder="Min" value="-10"> to <input type="number" id="y-max" placeholder="Max" value="10"></label>
+        </div>
+
+        <div id="graph"></div>
+    </div>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.16.1/plotly.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.0.0/math.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
