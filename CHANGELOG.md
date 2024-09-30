@@ -1,9 +1,9 @@
-# Changelog
+## Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 ## [1.0.5] - 2024-09-30
-### Fixed
+### Fixed 
 - Added test script for Jest.
 - Updated server setup for testing compatibility.
 - Updated README.
