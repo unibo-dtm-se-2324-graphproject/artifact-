@@ -3,10 +3,15 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 ## [1.0.5] - 2024-09-30
-### Fixed 
-- Added test script for Jest.
-- Updated server setup for testing compatibility.
-- Updated README.
+### Added
+- Implemented unit tests using Jest for the server.
+
+### Changed
+- Updated test suite to include GET endpoint verification.
+
+### Tests
+- Verified that the GET / endpoint responds with a status of 200.
+
 
 ## [1.0.4] - 2024-09-29
 ### Fixed
